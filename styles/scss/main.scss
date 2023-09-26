@@ -1,0 +1,22 @@
+@import "reset";
+@import "variables";
+
+body {
+  background-color: $bg-body;
+}
+
+header {
+  padding: 15px 16px 24px;
+  .container {
+    @extend .flex, .justify-between, .align-center;
+    width: 500px;
+    margin: 0 auto;
+    .logo {
+      padding: 10px;
+    }
+
+    .buttons {
+      @extend .flex, .justify-between, .align-center;
+    }
+  }
+}

@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex,
+header .container .buttons,
+header .container {
+  display: flex;
+}
+
+.justify-between,
+header .container .buttons,
+header .container {
+  justify-content: space-between;
+}
+
+.align-center,
+header .container .buttons,
+header .container {
+  align-items: center;
+}
+
+body {
+  background-color: #181818;
+}
+
+header {
+  padding: 15px 16px 24px;
+}
+header .container {
+  width: 500px;
+  margin: 0 auto;
+}
+header .container .logo {
+  padding: 10px;
+}
+header .container .buttons button {
+  padding: 20px 46px;
+  color: #fff;
+  font-family: Graphik;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+} /*# sourceMappingURL=main.css.map */
