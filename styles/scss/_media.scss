@@ -1,0 +1,132 @@
+@media (min-width: 1220px) {
+  header {
+    .container {
+      width: 1200px;
+      .navbar {
+        display: flex;
+      }
+
+      .buttons {
+        justify-content: end;
+        label {
+          display: none;
+        }
+      }
+    }
+  }
+  section#hero {
+    .container {
+      width: 1200px;
+
+      #hero-info {
+        text-align: center;
+        h1 {
+          width: 710px;
+        }
+        p {
+          width: 582px;
+        }
+
+        .btns {
+          margin-top: 50px;
+          flex-direction: row;
+        }
+      }
+      #hero-gradient {
+        height: 680px;
+        .img-1 {
+          width: 100%;
+          left: 0;
+        }
+      }
+    }
+  }
+  section#features {
+    .container {
+      width: 1200px;
+
+      .f-text {
+        width: 582px;
+      }
+      .box {
+        display: flex;
+        gap: 75px;
+        justify-content: center;
+        .box-img {
+          margin-bottom: 0 !important;
+          .absolute-img-1 {
+            width: 696px;
+          }
+
+          #ab-img {
+            width: 420px;
+            position: absolute;
+            left: 43%;
+            top: 60%;
+          }
+        }
+      }
+    }
+  }
+  section#contents {
+    #cards {
+      width: 1200px;
+      display: flex;
+      padding: 0 100px;
+      gap: 33px;
+      justify-content: center;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  section#gallery {
+    .container {
+      width: 1200px;
+      text-align: center;
+      h2 {
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 62px; /* 119.231% */
+        letter-spacing: 0.2px;
+      }
+      .images-box-1 {
+        display: none;
+        img {
+          border-radius: 10px;
+        }
+      }
+      #imgbox2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+
+        img {
+          max-width: 350px;
+          border-radius: 10px;
+        }
+      }
+      .btn-see {
+        width: 178px;
+        height: 65px;
+        padding: 10px 30px;
+        margin: 0 auto;
+        color: $text-color;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: 0.2px;
+        border: 1px solid #fff;
+        box-shadow: 0px 4px 31px 0px rgba(0, 0, 0, 0.15);
+      
+        &:hover {
+          box-shadow: 0px 4px 31px 0px rgba(205, 193, 193, 0.795);
+        }
+      }
+    }
+  }
+}
